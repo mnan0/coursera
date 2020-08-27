@@ -1,0 +1,42 @@
+.site-brand {
+    text-align: left;
+    font-size: 2em;
+    color: black;
+    margin-left: 15px;
+}
+.site-brand:hover {
+    text-decoration: none;
+    background: lightgrey;
+}
+@media (min-width: 768px){
+    nav .container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.navbar-header {
+    padding-top: 5px;
+}
+
+.navbar-toggle {
+    margin-right: 15px;
+}
+@media (max-width: 767px){
+    #collapsable-nav{
+    background-color: peachpuff;
+    }
+}
+#collapsable-nav li{
+    height: 50px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+div h1 {
+    text-align: center;
+}
+div section{
+    height: 1000px;
+    border: 2px solid black;
+}
